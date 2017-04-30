@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HibernateTemplateDemo.iml" filepath="$PROJECT_DIR$/HibernateTemplateDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSH-demo.iml" filepath="$PROJECT_DIR$/SSH-demo.iml" />
     </modules>
   </component>
 </project>

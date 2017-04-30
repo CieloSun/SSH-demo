@@ -49,6 +49,8 @@ $RECYCLE.BIN/
 
 # IntelliJ
 /out/
+/target/
+/lib/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
