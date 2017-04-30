@@ -1,2 +1,8 @@
 # HibernateTemplateDemo
-使用spring-4, spring-mvc-4和hibernate-5构建的完全由spring托管hibernate的项目。并使用spring提供的HibernateTemplate来操作数据库。
+
+一个基于Maven的Springmvc+Spring+Hibernate+Redis，需要idea/eclipse,mysql的demo。
+
+redis port:6379
+mysql port:3306
+
+数据库见temp.sql
