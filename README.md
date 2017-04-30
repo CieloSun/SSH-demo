@@ -1,4 +1,4 @@
-# HibernateTemplateDemo
+# SSH+Redis-demo
 
 一个基于Maven的Springmvc+Spring+Hibernate+Redis，需要idea/eclipse,mysql的demo。
 
