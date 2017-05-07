@@ -1,12 +1,17 @@
 package com.cielo.entity;
 
+import org.hibernate.annotations.*;
+
 import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
 /**
  * Created by 63289 on 2017/2/22.
  */
 @Entity
 @Table(name = "Hello", schema = "temp", catalog = "")
+@org.hibernate.annotations.Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 public class HelloEntity {
     private int id;
     private String name;

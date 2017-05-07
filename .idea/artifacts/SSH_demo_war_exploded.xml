@@ -17,7 +17,6 @@
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.13.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.24" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.24" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.8.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-keyvalue:1.2.3.RELEASE" />
@@ -49,10 +48,14 @@
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" />
           <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-ehcache:5.2.10.Final" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache:2.10.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.ehcache:ehcache:3.3.1" />
           <element id="library" level="project" name="Maven: org.jboss:jandex:2.0.3.Final" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:6.0.6" />
-          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.42" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="SSH-demo/web/Web" />

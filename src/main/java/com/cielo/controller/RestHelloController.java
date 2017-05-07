@@ -21,15 +21,15 @@ public class RestHelloController {
         this.tokenService = tokenService;
     }
 
-    @RequestMapping("token/{name}")
-    public String token(@PathVariable String name){
+    @RequestMapping(value = "token",method = RequestMethod.POST)
+    public String token(String name){
         return tokenService.generateToken(name);
     }
-    @RequestMapping("name/{name}/{message}")
-    public void add(@PathVariable String name,@PathVariable String message){
+    @RequestMapping(value = "name",method = RequestMethod.POST)
+    public void add(String name,String message){
         helloService.add(name,message);
     }
-    @RequestMapping("{token}")
+    @RequestMapping(value = "{token}",method = RequestMethod.GET)
     public String get(@PathVariable String token){
         return helloService.showMessage(tokenService.getName(token));
     }
