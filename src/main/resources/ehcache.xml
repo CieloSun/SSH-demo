@@ -23,7 +23,4 @@
            eternal="false"
            timeToLiveSeconds="120"
            overflowToDisk="true" />
-    <cache name="javaClassName" maxElementsInMemory="2000" eternal="false"
-           timeToIdleSeconds="120" timeToLiveSeconds="120"
-           overflowToDisk="true" />
 </ehcache>
